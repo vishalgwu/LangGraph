@@ -15,49 +15,7 @@ LangGraph is an experimental playground where I've brought to life a wide variet
 
 Folder Structure
 
-LangGraph/
-│
-├── chat_bot/                 # Gemini and tool-calling chat agents
-│   ├── google_langgraph.py
-│   ├── intro_langgraph1.py
-│   ├── rag_langgraph.py
-│   └── rag_llm_langgraph.py
-│
-├── multi-agent/              # Tool-using, collaborative agents
-│   ├── calculator.py
-│   ├── multi_agent.py
-│   ├── research_agent.py
-│   ├── test1.py
-│   └── test2.py
-│
-├── pre_requist/              # Core logic and pre-requisites
-│   ├── agent.py
-│   ├── ReAct_agent.py
-│   ├── text_loader.py
-│   ├── tools.py
-│   └── web_search.py
-│
-├── Rags/                     # All RAG variants
-│   ├── agentic_rag.py
-│   ├── corrective_rag.py
-│   ├── self_rag.py
-│   ├── sql_agent.py
-│   ├── employee_data.db
-│   └── rag_agent_graph.png
-│
-├── Structured_output/        # Output formatting & approvals
-│   ├── human_approval_agent.py
-│   ├── human_in_loop_agent.py
-│   ├── structured_output_agent.py
-│   └── test_human.py
-│
-├── data/                     # Sample text files
-│   ├── data.txt
-│   └── data2.txt
-│
-├── .env                      # 🔐 API Keys (not uploaded)
-├── req.txt                   # 🔧 Python requirements
-└── langgraph_presentation.pptx  # Project overview presentation
+<pre> ``` LangGraph/ │ ├── chat_bot/ # Gemini and tool-calling chat agents │ ├── google_langgraph.py │ ├── intro_langgraph1.py │ ├── rag_langgraph.py │ └── rag_llm_langgraph.py │ ├── multi-agent/ # Tool-using, collaborative agents │ ├── calculator.py │ ├── multi_agent.py │ ├── research_agent.py │ ├── test1.py │ └── test2.py │ ├── pre_requist/ # Core logic and pre-requisites │ ├── agent.py │ ├── ReAct_agent.py │ ├── text_loader.py │ ├── tools.py │ └── web_search.py │ ├── Rags/ # All RAG variants │ ├── agentic_rag.py │ ├── corrective_rag.py │ ├── self_rag.py │ ├── sql_agent.py │ ├── employee_data.db │ └── rag_agent_graph.png │ ├── Structured_output/ # Output formatting & approvals │ ├── human_approval_agent.py │ ├── human_in_loop_agent.py │ ├── structured_output_agent.py │ └── test_human.py │ ├── data/ # Sample text files │ ├── data.txt │ └── data2.txt │ ├── .env # 🔐 API Keys (not uploaded) ├── req.txt # 🔧 Python requirements └── langgraph_presentation.pptx # Project overview presentation ``` </pre>
 
 --------------------------------------------------------------------------------
 
