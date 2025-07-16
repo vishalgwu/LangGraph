@@ -12,7 +12,7 @@ LangGraph is an experimental playground where I've brought to life a wide variet
  From reasoning to retrieval to response — this repo explores how agents collaborate intelligently using tools, memory, and human feedback loops.
 
 --------------------------------------------------------------------------------
-## 📦 Folder Structure
+##  Folder Structure
 
 ```text
 LangGraph/
